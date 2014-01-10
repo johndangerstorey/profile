@@ -1,6 +1,56 @@
 
+/*Style Sheet for Svbtle on tablet*/
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 body {
+  font-family: 'Helvetica';
+}
+
+body {
+	
+	color: #545454;
+	font-size: 14px;
 	background-color:#ffffff;
+
+	
+}
+
+
+span {
+	font-weight: 900;
+	color:black;
+}
+
+.clearfix {
+	clear: both;
+}
+
+h1 {
+
+	font-weight: 100;
+	font-size: 2em;
+	margin-bottom: 30px;
+
+	
+}
+
+h2 {
+	font-style: bold;
+	font-size: 3em;
+	color: black;
+	font-style: bold;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-weight: 900;
+	font-size: 1em;
+	color: 3CB5DB;
+	font-style: bold;
+	margin-bottom: 40px;
+
+	
 }
 .col1 {
 	width: 10%;
@@ -42,4 +92,5 @@ ul {
 	width: 80%;
 	display:inline-block;
 	
+
 }
