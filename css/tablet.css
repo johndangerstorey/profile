@@ -88,9 +88,17 @@ ul {
 	margin: 0 auto;
 	
 }
-.col2 {
-	width: 80%;
-	display:inline-block;
+
+.col{
+	float:left;
+	box-sizing:border-box;
+	width:33%;
 	
+}
+
+.container {
+
+	display:inline-block;
+	width: 100%;
 
 }
