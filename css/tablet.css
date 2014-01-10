@@ -1,1 +1,45 @@
-tablet.css
+
+body {
+	background-color:#ffffff;
+}
+.col1 {
+	width: 10%;
+	position:fixed;
+	border-right:1px solid #eeeeee;
+	height:100%;
+	
+}
+ul {
+	 padding-top:40px;
+	 list-style-type: none;
+	 padding-right:30px;
+	 text-align:right; 
+	 line-height: 180%;
+	 color: #aeacac;
+}
+.circle {
+	background-color: black;
+	display:block;
+	position:relative;
+	top:42px;
+	height: 33px;
+	width:33px;
+	border-radius: 100%;
+	margin: 0 auto;
+
+	
+}
+.circle2 {
+
+	border:5px solid ;
+	height: 42px;
+	width:42px;
+	border-radius: 100%;
+	margin: 0 auto;
+	
+}
+.col2 {
+	width: 80%;
+	display:inline-block;
+	
+}
