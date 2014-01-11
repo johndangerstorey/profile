@@ -14,14 +14,13 @@ Things to remember:
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 body {
   font-family: 'Open Sans','Helvetica';
+  font-size: 10px;
 }
 
 body {
 	
 	color: #545454;
-	font-size: 10px;
 	background-color:#ffffff;
-	background-image:url('../images/profile_pic.jpg');
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
@@ -33,7 +32,7 @@ body {
 	width:33%;
 	border-style:solid;
   	border-width:1px;
-  	border-color:blue;
+  	border-color:rgb(240, 240, 252);
   	height: 100%;
 
 }
@@ -68,15 +67,16 @@ body {
 }
 
 #left {
-	
+	padding: 3px 20px 0 0;
 	width: 125px;
 	display: none;
 	position: fixed;
-
+	text-align: right;
+	
 }
 
 #center {
-	background-color: #F0FFFF;
+	/*background-color: #F0FFFF;*/
 	width: 100%;
 	padding-top: 45px;
 	
@@ -84,10 +84,10 @@ body {
 }
 
 #right {
-	background-color: #F0FFFF;
 	width: 20%;
 	display: none;
-
+	text-align: left;
+	padding-left: 20px;
 }
 
 #center_left {
@@ -96,10 +96,13 @@ body {
 
 #center_right {
 	width: 70%;
+	text-align: left;
 }
 
 #profile_circle {
-	background-color: black;
+	/* background-color: black; */
+	background-image: url('../images/profile_pic.jpg');
+	background-size: contain;
 	display:block;
 	position:relative;
 	height: 70px;
@@ -112,7 +115,6 @@ body {
 .clearfix {
 	clear: both;
 }
-
 
 
 a {
@@ -142,7 +144,7 @@ h2 {
 	font-size: 1em;
 	color: black;
 	font-style: bold;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 }
 
 h3 {
@@ -156,8 +158,6 @@ h3 {
 ul {
 	 padding-top:40px;
 	 list-style-type: none;
-	 padding-right:30px;
-	 text-align:right; 
 	 line-height: 180%;
 	 color: #aeacac;
 }
