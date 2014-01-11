@@ -21,6 +21,50 @@ body {
 	color: #545454;
 	font-size: 10px;
 	background-color:#ffffff;
+	background-image:url('../images/profile_pic.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+
+.col{
+	float:left;
+	box-sizing:border-box;
+	width:33%;
+	border-style:solid;
+  	border-width:1px;
+  	border-color:blue;
+  	height: 100%;
+
+}
+
+.container {
+
+	display:inline-block;
+	width: 100%;
+
+}
+
+.entry {
+	width: 100%;
+	height: 80px;
+	border-color: black;
+	border-width: 1px;
+	border-style: dotted;
+}
+
+.entry_circle {
+	
+	box-sizing:border-box;
+	border:5px solid ;
+	border-color: black;
+	display:block;
+	position:relative;
+	height: 60px;
+	width: 60px;
+	
+	border-radius: 100%;
+	margin: 0 auto;
 }
 
 #left {
@@ -33,40 +77,69 @@ body {
 
 #center {
 	background-color: #F0FFFF;
-	width: 80%;
+	width: 100%;
 	padding-top: 45px;
-	padding-left: 140px;
+	
 
 }
 
 #right {
 	background-color: #F0FFFF;
 	width: 20%;
-
+	display: none;
 
 }
 
+#center_left {
+	width: 30%;
+}
 
+#center_right {
+	width: 70%;
+}
 
-span {
-	font-weight: 900;
-	color:black;
+#profile_circle {
+	background-color: black;
+	display:block;
+	position:relative;
+	height: 70px;
+	width: 70px;
+	
+	border-radius: 100%;
+	margin: 0 auto;
 }
 
 .clearfix {
 	clear: both;
 }
 
+
+
+a {
+	text-decoration: none;
+	color:#3CB5DB;
+	font-style: bold;
+	font-weight: 700;
+}
+
+span {
+	font-weight: 900;
+	color:black;
+}
+
+
+
 h1 {
 
-	font-weight: 100;
-	font-size: 3em;
-	margin-bottom: 30px;	
+	font-weight: 500;
+	font-size: 2em;
+	color: black;
+	margin-bottom: 5px;	
 }
 
 h2 {
 	font-style: bold;
-	font-size: 3em;
+	font-size: 1em;
 	color: black;
 	font-style: bold;
 	margin-bottom: 5px;
@@ -88,18 +161,7 @@ ul {
 	 line-height: 180%;
 	 color: #aeacac;
 }
-.circle {
-	background-color: black;
-	display:block;
-	position:relative;
-	top:42px;
-	height: 33px;
-	width:33px;
-	border-radius: 100%;
-	margin: 0 auto;
 
-	
-}
 .circle2 {
 
 	border:5px solid ;
@@ -110,20 +172,3 @@ ul {
 	
 }
 
-.col{
-	float:left;
-	box-sizing:border-box;
-	width:33%;
-	border-style:solid;
-  	border-width:1px;
-  	border-color:blue;
-  	height: 300px;
-
-}
-
-.container {
-
-	display:inline-block;
-	width: 100%;
-
-}
