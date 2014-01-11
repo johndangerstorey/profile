@@ -76,6 +76,7 @@ body {
 	height:40px;
 	position: fixed;
 	/*background-color: #E0E0E0;*/
+	color: grey;
 }
 
 #top_nav_left{
@@ -160,8 +161,16 @@ a {
 }
 
 span {
-	font-weight: 900;
+	
+	}
+
+span:hover{
 	color:black;
+}
+
+span: {
+
+
 }
 
 
