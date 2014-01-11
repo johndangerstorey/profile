@@ -1,20 +1,91 @@
 
-/*Style Sheet for Svbtle on tablet*/
+/*
+
+Things to remember:
+
+1. Always use proper indentation in your css and html
+2. An "#" selector or 'id' will override a '.' selector or 'class'
+3. A '.' selector will override a native selector, like 'div'
+
+*/
+
 
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 body {
-  font-family: 'Helvetica';
+  font-family: 'Open Sans','Helvetica';
 }
+
+/********************************/
+/* Example **********************/
+/********************************/
+
+#container {
+  margin: 20px auto;
+  padding: 20px;
+  background: #e5e5e5;
+}
+
+#content-above {
+  padding: 20px;
+  background: red;
+}
+
+.left {
+  padding: 20px;
+  margin: 10px;
+  float: left;
+  color: #fff;
+}
+
+.right {
+  padding: 20px;
+  margin: 10px;
+  float: right;
+  color: #fff;
+}
+
+.float {
+  border-style:solid;
+  border-width:1px;
+  border-color:blue;
+  height: 300px;
+}
+
+.float-2 {
+  background: purple;
+  height: 100px;
+}
+
+/********************************/
+/* End of Example ***************/
+/********************************/
 
 body {
 	
 	color: #545454;
 	font-size: 10px;
 	background-color:#ffffff;
-
-	
 }
+
+#left {
+	
+	width: 125px;
+	/*display: none;*/
+}
+
+#center {
+	background-color: #F0FFFF;
+	width: 65%;
+	padding-top: 45px;
+}
+
+#right {
+	background-color: #F0FFFF;
+	width: 50px;
+
+}
+
 
 
 span {
@@ -29,10 +100,8 @@ span {
 h1 {
 
 	font-weight: 100;
-	font-size: 2em;
-	margin-bottom: 30px;
-
-	
+	font-size: 3em;
+	margin-bottom: 30px;	
 }
 
 h2 {
@@ -49,16 +118,8 @@ h3 {
 	color: 3CB5DB;
 	font-style: bold;
 	margin-bottom: 40px;
+}
 
-	
-}
-.col1 {
-	width: 10%;
-	position:fixed;
-	border-right:1px solid #eeeeee;
-	height:100%;
-	
-}
 ul {
 	 padding-top:40px;
 	 list-style-type: none;
@@ -93,7 +154,10 @@ ul {
 	float:left;
 	box-sizing:border-box;
 	width:33%;
-	
+	border-style:solid;
+  	border-width:1px;
+  	border-color:blue;
+  	height: 300px;
 }
 
 .container {
