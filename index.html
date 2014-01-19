@@ -49,7 +49,7 @@
     
 	   <div class="col" id="center">
 
-        <div class="entry animated fadeInDown">
+        <div class="entry" id="profile">
 
             <div class="col" id="center_left">
 
@@ -71,20 +71,23 @@
 
       <!-- First BHAG entry -->
 
-            <div class="entry">
+            <div class="entry animated fadeInDown" id="edit">
 
             <div class="col" id="center_left">
 
-              <div class="entry_circle"></div>
+              <div class="entry_circle" id="edit"></div>
 
             </div>
 
             <div class="col" id="center_right">
+                <h1 class="edit"> Click to create your first</h1>
 
-              <h1> Click to create your first</h1>
-              <h2>Short one or two line description that embodies what you are trying to do.</h2>
-              <h3><a href="#">Link to website</a> </h3>
-            </div>
+                <h2>Short one or two line description that embodies what you are trying to do.</h2>
+                <nav>
+                    <a href="#">Link to website</a> 
+                    <a href="" class="save-input">Save</a>
+                  </nav>     
+                
       </div>
 
         <!-- Blog Post in the full #center div 
@@ -118,6 +121,6 @@
 <!-- Scripts -->
 <script src='assets/js/jquery-2.0.3.min.js'></script>
 <script src='assets/js/main.js'></script>
-
+<script src='http://www.appelsiini.net/download/jquery.jeditable.mini.js'></script>
 </body>
 </html>

@@ -57,6 +57,7 @@ body {
 	border-style: dotted;*/
 }
 
+
 .entry_circle {
 	
 	box-sizing:border-box;
@@ -68,6 +69,10 @@ body {
 	width: 60px;
 	border-radius: 100%;
 	margin: 0 auto;
+}
+
+#edit {
+	border-color: rgb(208, 203, 203);
 }
 
 .top_nav {
@@ -186,6 +191,10 @@ span:hover{
 	-webkit-transform: scale(1.1); 
 }
 
+input{
+	padding:0;
+	border: none;
+}
 
 
 h1 {
@@ -193,8 +202,41 @@ h1 {
 	font-weight: 500;
 	font-size: 2em;
 	color: black;
-	margin-bottom: 5px;	
+	margin:0 5px 5px 0;	
+
 }
+
+#edit h1 {
+		color: rgb(208, 203, 203);
+
+}
+.save-input {
+	display: none;
+	border:1px solid #aeacac;
+	padding: 0px 4px 0 4px;
+}
+
+.edit-new{
+	font-weight: 500;
+	font-size: 2em;
+	color: black;
+	margin:15px 5px 5px 0;	
+}
+
+textarea:focus, input:focus {
+    outline: 0;
+    border: none;
+    font-family: 'Open Sans','Helvetica';
+    font-size: 2em;
+    font-weight: 500;
+	font-size: 2em;
+	color: black;
+	margin-bottom: 5px;	
+	height: 1.5em;
+
+
+}
+
 
 h2 {
 	font-style: bold;
@@ -202,6 +244,12 @@ h2 {
 	color: black;
 	font-style: bold;
 	margin-bottom: 7px;
+	padding: 0 10px 0 0;
+}
+
+#edit h2 {
+	color: rgb(208, 203, 203);
+	
 }
 
 h3 {
@@ -217,16 +265,6 @@ ul {
 	 list-style-type: none;
 	 line-height: 180%;
 	 color: #aeacac;
-}
-
-.circle2 {
-
-	border:5px solid ;
-	height: 42px;
-	width:42px;
-	border-radius: 100%;
-	margin: 0 auto;
-	
 }
 
 /* Right Hand Sidebar */
