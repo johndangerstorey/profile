@@ -14,13 +14,12 @@
 
 </head>
 <body>
-<!-- Play's Background Video 
-<div>
-  Plays Video Background
-  <video id="video_background" src="images/teal_purple.mp4" autoplay> </video>
+<!-- Play's Background Video --> 
+<!-- <div>
+  <video id="video_background" src="assets/images/teal_purple.mp4" autoplay> </video>
 </div> -->
 
-<div class="top_nav">
+<div class="top_nav" id='profileHeader'>
   <div id="top_nav_left">
     <img src="assets/images/Logo_Dark_35.png" id="sidebar-toggle-left"/>
 
@@ -60,35 +59,48 @@
             <div class="col" id="center_right">
 
               <h1> John D. Storey</h1>
-              <h2>Busy creating what I wish already existed, or some other one or two line description. </h2>
+              <h2>Busy creating what I wish already existed. Student at <a href="http://www.devmounta.in">Dev Mountain</a> , <a href="#">Video Producer</a> and Ping Pong Master.</h2>
               <nav>
-                    <a href="#">Website</a> |
+                    <a href="#">Resume</a> |
                     <a href="#">Contact</a> |
                     <a href="#">Work</a> 
                   </nav>              
             </div>
         </div>
 
-      <!-- First BHAG entry -->
+      <!-- Demo Box -->
 
-            <div class="entry animated fadeInDown" id="edit">
+            <div class="col" id="demo">
 
-            <div class="col" id="center_left">
+              <div class="about">
+                  <p> Here is my about section <p>
 
-              <div class="entry_circle" id="edit"></div>
+              </div>
 
             </div>
 
-            <div class="col" id="center_right">
-                <h1 class="edit"> Click to create your first</h1>
+      <!-- Edit BHAG entry -->
 
-                <h2>Short one or two line description that embodies what you are trying to do.</h2>
-                <nav>
-                    <a href="#">Link to website</a> 
-                    <a href="" class="save-input">Save</a>
-                  </nav>     
+            <!-- <div class="entry animated fadeInDown" id="edit">
+
+                <div class="col" id="center_left">
+
+                    <div class="entry_circle" id="edit"></div>
+
+                </div>
+
+                <div class="col" id="center_right">
+                    <h1 class="edit"> Click to create your first</h1>
+
+                    <h2>Short one or two line description that embodies what you are trying to do.</h2>
+                    <nav>
+                        <a href="#">Link to website</a> 
+                        <a href="" class="save-input">Save</a>
+                    </nav>     
                 
-      </div>
+                </div>
+
+            </div> -->
 
         <!-- Blog Post in the full #center div 
 
@@ -105,8 +117,8 @@
        <div class="col" id="right">
         <ul>
 
-               <li>About</li>
-               <li>Manifesto</li>
+               <li class="clickable" id="about">About</li>
+               <li class="clickable" id="manifesto">Manifesto</li>
        </ul>
 
        <ul>

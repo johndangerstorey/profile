@@ -36,9 +36,11 @@ Things to remember:
 		display: block;
 		float: none;
 		position: fixed;
-		right: -123;
+		/* right: -123; */
+		top: -20;
 		z-index: -1;
 		background-color: white;
+}
 }
 
 
