@@ -1,45 +1,51 @@
 $(function() {
 
+//Toggles Sidebars
+
 		$('#sidebar-toggle-right').click(function(){
-			// console.log('hi');
 			$('body').toggleClass('sidebar-open-right');
 		});	
 
 		$('#sidebar-toggle-left').click(function(){
-			// console.log('hi');
 			$('body').toggleClass('sidebar-open-left');
 		});	
 
+//Toggles HTML5 Video
+
+		$('#HTML5video').click(function(){
+			console.log('#HTML5video clicked');
+			$('body').toggleClass('HTML5video');
+			return false;
+			
+		});
+
+//Makes items do something on click
+
 		$('.item').click(function(){
 			console.log('click registered');
-		// 	$('.item figcaption').html("<i class="fa fa-bolt icon_large"></i>");
-
 		 });	
 
-		 // $('.edit').editable('http://www.example.com/save.php');
 		$('body').on('click', '.edit', function() {
-			var oldEl = $(this),
+
+				var oldEl = $(this),
 				newEl = $('<input class="edit-new" placeholder="" />');
 				
-
-				// $('.save-input').prepend( " | " );
 				$('.save-input').show();
-				
+						
 
 				oldEl.replaceWith(newEl);
 				newEl.focus();
-				
+						
 
 				$('.save-input').on('click', function(e) {
 					newEl = $('.edit-new').val();
-					// alert(newEl);
-					// newEl.replaceWith(oldEl);
 					e.preventDefault();
 					$('.save-input').hide();
 				});
 		});
 
-		//Makes lists clickable
+//Makes lists clickable
+
 		$(function() {
 		    // make the cursor over <li> element to be a pointer instead of default
 		    $('li.clickable').css('cursor', 'pointer')
