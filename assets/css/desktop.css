@@ -38,8 +38,8 @@ Things to remember:
 		position: fixed;
 		/* right: -123; */
 		top: -20;
-		z-index: -1;
-		background-color: white;
+		z-index: 3;
+		background-color: transparent;
 }
 }
 
